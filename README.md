@@ -1,3 +1,14 @@
+---
+title: Agentic AI Project
+emoji: 😍
+colorFrom: red
+colorTo: yellow
+sdk: gradio
+sdk_version: "3.x.x"
+app_file: app.py
+pinned: false
+---
+
 # Agentic AI Project
 
 ## Introduction
