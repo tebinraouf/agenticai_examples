@@ -1,5 +1,5 @@
 ---
-title: Agentic AI Project
+title: Prompt Craft
 emoji: 😍
 colorFrom: red
 colorTo: yellow
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Agentic AI Project
+# Prompt Craft
 
 ## Overview
 

@@ -45,7 +45,7 @@ interface = gr.Interface(
         gr.Image(label="Generated Image"),
         gr.Textbox(label="Improved Prompt Used")
     ],
-    title="AI Image Generator",
+    title="Prompt Craft",
     description="Enter a prompt to generate an image using FLUX.1-schnell model (the prompt will be improved automatically).",
     examples=[
         ["a cat wearing a cape"],
