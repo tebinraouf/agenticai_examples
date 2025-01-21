@@ -48,7 +48,7 @@ interface = gr.Interface(
     title="Prompt Craft",
     description="Enter a prompt to generate an image using FLUX.1-schnell model (the prompt will be improved automatically).",
     examples=[
-        ["a cat wearing a cape"],
+        ["a white cat wearing a cape"],
         ["cyberpunk city at night with neon lights"]
     ],
     allow_flagging="never"
