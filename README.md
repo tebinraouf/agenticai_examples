@@ -11,9 +11,26 @@ pinned: false
 
 # Agentic AI Project
 
-## Introduction
+## Overview
 
-This project is designed to...
+This project leverages HuggingFace's `smolagent` library to create AI-generated images through a streamlined workflow.
+
+## Technology Stack
+
+- **Agent Framework**: Uses HuggingFace's `smolagent` with `Tool.from_space` implementation
+- **Image Generation**: Powered by the `FLUX.1-schnell` model
+- **Prompt Enhancement**: Utilizes `Qwen/Qwen2.5-Coder-32B-Instruct` model via HuggingFace Inference API
+
+## How It Works
+
+1. User provides an initial image prompt
+2. The Qwen model enhances the prompt for better results
+3. FLUX.1-schnell generates the final image based on the improved prompt
+
+## Links
+
+- [HuggingFace Smolagent Documentation](https://huggingface.co/docs/smolagents/main/en/index)
+- [Qwen 2.5 Model](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct)
 
 ## Prerequisites
 

@@ -51,8 +51,7 @@ interface = gr.Interface(
         ["a cat wearing a cape"],
         ["cyberpunk city at night with neon lights"]
     ],
-    allow_flagging="auto",
-    flagging_options=["Good", "Bad", "Neutral"]
+    allow_flagging="never"
 )
 
 # Launch the interface
