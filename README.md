@@ -14,8 +14,8 @@ This project is designed to...
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/smolagents.git
-   cd smolagents
+   git clone https://github.com/tebinraouf/agenticai_examples.git
+   cd agenticai_examples
    ```
 
 2. Create a virtual environment:
@@ -25,15 +25,27 @@ This project is designed to...
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. Install the dependencies:
+3. Create a `.env` file in the root directory of the project and add your environment variables:
+
+   ```sh
+   touch .env
+   ```
+
+   Example `.env` file:
+
+   ```
+   HF_TOKEN=your_api_key_here
+   ```
+
+4. Install the dependencies:
 
    ```sh
    pip install -r requirements.txt
    ```
 
-4. Run the project:
+5. Run the project:
    ```sh
-   python main.py
+   python app.py
    ```
 
 ## Contributing
