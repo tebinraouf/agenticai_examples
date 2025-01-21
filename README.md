@@ -1,4 +1,4 @@
-# SmolAgents Project
+# Agentic AI Project
 
 ## Introduction
 
